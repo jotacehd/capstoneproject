@@ -12,6 +12,7 @@ body{
 
 h1{
   font-size: 50px;
+  font-weight: 700;
 }
 h2{
   font-size: 35px;
@@ -39,8 +40,7 @@ h3{
      color: #434343;
 }
  span.academy {
-     font-size: 20px;
-     font-weight: 100;
+     font-size: 19px;
      color: #999;
 }
  ul.menu-desktop{
@@ -77,22 +77,22 @@ h3{
      width: 100%;
 }
  .right-block1 {
-     float: right;
-     padding: 60px 0;
-     width:38%;
+   float: right;
+  padding: 115px 0;
+  width: 36%;
 }
  .right-block1 h1{
    font-size: 50px;
-    font-weight: 900;
+ font-weight: 700;
 }
  .right-block1 h2{
-   font-size: 35px;
-    font-weight: normal;
+   font-size: 28px;
+    font-weight: 500;
     margin: 50px 0;
     line-height: 1.3em;
 }
 .start-here-bt {
-    width: 200px;
+    width: 55%;
     background: #434343;
     padding: 20px 83px;
     text-align: center;
@@ -125,6 +125,33 @@ h3{
     float: left;
     width: 55%;
     margin: 0 20px;
+}
+.news-info h3 {
+    font-weight: 600;
+}
+.news-info a {
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    color: #1392ef;
+}
+div#bg_news p {
+    line-height: 23px;
+}
+div#bg-color {
+    padding: 17px 0 0;
+    background-color: #ddd;
+}
+.left-block2 h1 {
+    margin: 32px 0 24px 0;
+}
+.left-block2 h4 {
+    margin: 32px 0 24px 0;
+        line-height: 1.5;
+}
+small {
+    font-size: 11px;
+    font-weight: 500;
 }
 .right-block2 {
     float: right;
@@ -168,6 +195,7 @@ width: 97%;
 float: left;
 text-align: center;
 background-color: #f7f7f7;
+padding-bottom: 32px;
 }
 .block3-title{
   background-color: #f7f7f7;
@@ -240,7 +268,8 @@ line-height: 21px;
 .news-info {
     float: left;
     width: 55%;
-    margin: 0 20px;
+    margin: 20px;
+    line-height: 40px;
 }
 .right-block4 {
     float: right;

@@ -9,16 +9,15 @@ body{
      line-height: 60px;
 }
 /****** FONT FAMILY **********/
-
-h1{
-  font-size: 50px;
-  font-weight: 700;
+ h1{
+     font-size: 48px;
+     font-weight: 700;
 }
-h2{
-  font-size: 35px;
+ h2{
+     font-size: 35px;
 }
-h3{
-  font-size: 25px;
+ h3{
+     font-size: 25px;
 }
  .logo-image {
      display: inline-block;
@@ -59,15 +58,14 @@ h3{
  .sing-in {
      padding-right: 16px;
 }
-
 /**** Bloque 1 *****/
  .block1 {
      padding: 32px 24px;
      width: 97%;
 }
-.bg1{
-  background-color: #d3d3d3;
-  float: left;
+ .bg1{
+     background-color: #d3d3d3;
+     float: left;
 }
  .left-block1 {
      width: 60%;
@@ -77,226 +75,246 @@ h3{
      width: 100%;
 }
  .right-block1 {
-   float: right;
-  padding: 115px 0;
-  width: 36%;
+     float: right;
+     padding: 115px 0;
+     width: 36%;
 }
  .right-block1 h1{
-   font-size: 50px;
- font-weight: 700;
+     font-size: 50px;
+     font-weight: 700;
 }
  .right-block1 h2{
-   font-size: 28px;
-    font-weight: 500;
-    margin: 50px 0;
-    line-height: 1.3em;
+     font-size: 28px;
+     font-weight: 500;
+     margin: 50px 0;
+     line-height: 1.3em;
 }
-.start-here-bt {
-    width: 55%;
-    background: #434343;
-    padding: 20px 83px;
-    text-align: center;
+ .start-here-bt {
+     width: 55%;
+     background: #434343;
+     padding: 20px 83px;
+     text-align: center;
 }
-.start-here-bt a {
-    color: #fff;
-    text-decoration: none;
-    font-size: 22px;
+ .start-here-bt a {
+     color: #fff;
+     text-decoration: none;
+     font-size: 22px;
 }
-
 /**** Bloque 2 *****/
-.block2 {
-    padding: 32px 24px;
-    width: 97%;
-    float: left;
+ .block2 {
+     padding: 32px 24px;
+     width: 97%;
+     float: left;
 }
-.left-block2 {
-  width: 60%;
-  float: left;
+ .left-block2 {
+     width: 60%;
+     float: left;
 }
-.left-block2 img{
-    width: 100%;
+ .left-block2 img{
+     width: 100%;
 }
-.image-news img {
-    width: 35%;
-    float: left;
-    height: auto;
+ .image-news img {
+     width: 35%;
+     float: left;
+     height: auto;
 }
-.news-info {
-    float: left;
-    width: 55%;
-    margin: 0 20px;
+ .news-info {
+     float: left;
+     width: 55%;
+     margin: 0 20px;
 }
-.news-info h3 {
-    font-weight: 600;
+ .news-info h3 {
+     font-weight: 600;
 }
-.news-info a {
-    text-decoration: none;
-    font-size: 14px;
-    font-weight: 500;
-    color: #1392ef;
+ .news-info a {
+     text-decoration: none;
+     font-size: 14px;
+     font-weight: 500;
+     color: #1392ef;
 }
-div#bg_news p {
-    line-height: 23px;
+ div#bg_news p {
+     line-height: 23px;
 }
-div#bg-color {
-    padding: 17px 0 0;
-    background-color: #ddd;
+ div#bg-color {
+     padding: 17px 0 0;
+     background-color: #ddd;
 }
-.left-block2 h1 {
-    margin: 32px 0 24px 0;
+ .left-block2 h1 {
+     margin: 32px 0 24px 0;
 }
-.left-block2 h4 {
-    margin: 32px 0 24px 0;
-        line-height: 1.5;
+ .left-block2 h4 {
+     margin: 32px 0 24px 0;
+     line-height: 1.5;
 }
-small {
-    font-size: 11px;
-    font-weight: 500;
+ small {
+     font-size: 11px;
+     font-weight: 500;
 }
-.right-block2 {
-    float: right;
-    width:38%;
-    border-left: 1px solid #ddd;
+ .right-block2 {
+     float: right;
+     width:38%;
+     border-left: 1px solid #ddd;
 }
-.right-block2 h1{
-  font-size: 50px;
-   font-weight: 900;
+ .right-block2 h1{
+     font-size: 50px;
+     font-weight: 900;
 }
-.right-block2 h2{
-  font-size: 30px;
-   font-weight: normal;
-   margin: 50px 0;
-   line-height: 1.3em;
+ .right-block2 h2{
+     font-size: 30px;
+     font-weight: normal;
+     margin: 50px 0;
+     line-height: 1.3em;
 }
-.news-block {
-    float: left;
-    width: 100%;
-    margin-bottom: 28px;
+ .news-block {
+     float: left;
+     width: 100%;
+     margin-bottom: 28px;
 }
-.news-block:hover {
-    /* padding-bottom: 0; */
-    background: #eee;
+ .news-block:hover {
+    /* padding-bottom: 0;
+     */
+     background: #eee;
 }
-.block2-news {
-    padding: 0 21px;
+ .block2-news {
+     padding: 0 21px;
 }
-.separator {
-    color: #000;
-    width: 96%;
-    padding: 12px;
-    float: left;
-    border-top: 1px solid #ddd;
+ .separator {
+     color: #000;
+     width: 96%;
+     padding: 12px;
+     float: left;
+     border-top: 1px solid #ddd;
 }
-
 /**** Bloque 3 *****/
-.block3{
-  margin: 0 24px 32px 24px;
-width: 97%;
-float: left;
-text-align: center;
-background-color: #f7f7f7;
-padding-bottom: 32px;
+ .block3{
+     margin: 0 24px 32px 24px;
+     width: 97%;
+     float: left;
+     text-align: center;
+     background-color: #f7f7f7;
+     padding-bottom: 32px;
 }
-.block3-title{
-  background-color: #f7f7f7;
+ .block3-title{
+     background-color: #f7f7f7;
 }
-.block3-title h1{
-  margin: 32px;
-  font-weight: bold;
-    font-size: 35px;
+ .block3-title h1{
+     margin: 32px;
+     font-weight: bold;
+     font-size: 35px;
 }
-.classes{
-  width: 100%;
-  margin: 0 76px;
+ .classes{
+     width: 98%;
+     margin: 0 72px;
 }
-.box-class{
-  width: 28%;
-  float: left;
-  margin: 16px;
-      height: 365px;
+ .box-class{
+     width: 28%;
+     float: left;
+     margin: 16px;
+     height: 365px;
 }
-.box-class img {
-  height: auto;
-  width: 100%;
+ .box-class img {
+     height: auto;
+     width: 100%;
 }
-.text-block3 {
-    text-align: left;
-    padding: 16px 16px 24px 16px;
-    background: #fff;
+ .text-block3 {
+     text-align: left;
+     padding: 16px 16px 24px 16px;
+     background: #fff;
 }
-.text-block3 h3{
-  font-size: 22px;
-      font-weight: 600;
+ .text-block3 h3{
+     font-size: 22px;
+     font-weight: 600;
 }
-p.sub-text {
-    margin: 16px 0px;
-    color: #999;
+ p.sub-text {
+     margin: 16px 0px;
+     color: #999;
 }
-.text-block3 p {
-  color: #999;
-line-height: 21px;
+ .text-block3 p {
+     color: #999;
+     line-height: 21px;
 }
-
 /**** Bloque 4 *****/
-.block4-title{
-
+ .block4-title{
 }
-.block4-title h1 {
-    margin: 0 0 32px;
-    background-color: #fff;
-    text-align: center;
-    font-weight: bold;
-    font-size: 35px;
+ .block4-title h1 {
+     margin: 0 0 32px;
+     background-color: #fff;
+     text-align: center;
+     font-weight: bold;
+     font-size: 35px;
 }
-.block4 {
-    padding: 0 24px 32px 24px;
-    width: 97%;
-    float: left;
+ .block4 {
+     padding: 0 24px 32px 24px;
+     width: 97%;
+     float: left;
 }
-.left-block4 {
-  width: 60%;
-  float: left;
+ .left-block4 {
+     width: 58%;
+     float: left;
+     margin: 0 24px;
 }
-.left-block4 img{
-    width: 100%;
+ .left-block4 img{
+     width: 100%;
 }
-.image-news img {
-    width: 35%;
-    float: left;
-    height: auto;
+ .left-block4 h1 {
+     margin: 32px 0 24px 0;
 }
-.news-info {
-    float: left;
-    width: 55%;
-    margin: 20px;
-    line-height: 40px;
+ .left-block4 h4 {
+     margin: 32px 0 24px 0;
+     line-height: 1.5;
 }
-.right-block4 {
-    float: right;
-    width:38%;
+ .image-news img {
+     width: 35%;
+     float: left;
+     height: auto;
 }
-.right-block4 h1{
-  font-size: 50px;
-   font-weight: 900;
+ .news-info {
+     float: left;
+     width: 55%;
+     margin: 20px;
+     line-height: 40px;
 }
-.right-block4 h2{
-  font-size: 30px;
-   font-weight: normal;
-   margin: 50px 0;
-   line-height: 1.3em;
+ .right-block4 {
+     float: right;
+     width:38%;
 }
-.news-block {
-    float: left;
-    width: 100%;
-    margin-bottom: 28px;
+ .right-block4 h1{
+     font-size: 50px;
+     font-weight: 900;
 }
-.news-block:hover {
-    /* padding-bottom: 0; */
-    background: #eee;
+ .right-block4 h2{
+     font-size: 30px;
+     font-weight: normal;
+     margin: 50px 0;
+     line-height: 1.3em;
 }
-.block4-news {
-    padding: 0 21px;
+ .news-block4 {
+     float: left;
+     width: 100%;
+     padding: 16px;
 }
-.left-block4 video {
-    width: 100%;
+ .news-block4:hover {
+    /* padding-bottom: 0;
+     */
+     background: #eee;
 }
+ .block4-news {
+}
+ .left-block4 video {
+     width: 100%;
+}
+/************** FOOTER **********/
+ .footer {
+     float: left;
+     width: 97%;
+     padding: 10px 45px 20px;
+     font-size: 12px;
+     border-top: 1px solid #ddd;
+}
+ .copy-right {
+     float: left;
+}
+ .terms {
+     float: right;
+}
+ 

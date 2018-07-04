@@ -1,7 +1,7 @@
 body{
      font-family: 'Montserrat', Helvetica, sans-serif;
      color: #434343;
-     width: 85%;
+     width: auto;
      margin: auto;
 }
  header{
@@ -272,11 +272,11 @@ body{
      float: left;
      width: 55%;
      margin: 20px;
-     line-height: 40px;
+     line-height: 28px;
 }
  .right-block4 {
      float: right;
-     width:38%;
+     width:37%;
 }
  .right-block4 h1{
      font-size: 50px;
@@ -317,4 +317,179 @@ body{
  .terms {
      float: right;
 }
- 
+ .image-news-mb img{
+     display: none;
+}
+ .image-news{
+     display: block;
+}
+ .menu_mob{
+     display: none;
+}
+/******** RESPONSIVE ************/
+ @media screen and (max-width:800px) {
+     body{
+         width: 100%;
+         margin: auto;
+    }
+     span.text-logo {
+         display: none;
+    }
+     .menu_mob {
+         display: inline-block;
+         width: auto;
+         text-align: center;
+         height: 64px;
+    }
+     span.logo-mob {
+         margin: 0 45px;
+    }
+     .menu_mob img {
+         height: 48px;
+    }
+     ul.menu-desktop {
+         float: right;
+         display: none;
+    }
+     .block1 {
+         padding: 0;
+         width: 100%;
+    }
+     .left-block1 {
+         width: 100%;
+         float: none;
+    }
+     .right-block1 {
+         float: none;
+         padding: 32px 16px;
+         width: auto;
+    }
+     .start-here-bt {
+         width: auto;
+    }
+     .news-block {
+         float: left;
+         width: 100%;
+         margin-bottom: 28px;
+         margin-top: 16px;
+    }
+     .left-block2 {
+         width: 0;
+         float: none;
+         display: none;
+    }
+     .right-block2 {
+         float: none;
+         width: 100%;
+         border-left: 1px solid #ddd;
+    }
+     .block2 {
+         padding: 16px;
+         width: 96%;
+         float: none;
+    }
+     .image-news{
+         display: none;
+    }
+     .image-news-mb img{
+         display: block;
+         width: 100%;
+    }
+     .separator {
+         display: none;
+    }
+     .news-info {
+         float: none;
+         width: 98%;
+         margin: 16px 16px 0px;
+         line-height: 34px;
+    }
+     .block3 {
+         margin: auto;
+         width: auto;
+         float: left;
+         text-align: center;
+         background-color: #f7f7f7;
+         padding-bottom: 32px;
+    }
+     .block4 {
+         padding: 32px 24px 32px 24px;
+         width: auto;
+    }
+     div#bg-color {
+         padding: 0;
+         background-color: transparent;
+    }
+     .right-block4 {
+         float: none;
+         width: 38%;
+         display: none;
+    }
+     .left-block4 h1 {
+         margin: 32px 0 24px 0;
+         display: none;
+    }
+     .left-block4 h4 {
+         margin: 32px 0 24px 0;
+         line-height: 1.5;
+         display: none;
+    }
+     .left-block4 {
+         width: 75%;
+         float: none;
+         margin: auto;
+    }
+     .box-class {
+         width: 40%;
+         float: left;
+         margin: auto 10px;
+         height: 365px;
+         text-align: center;
+    }
+     .classes {
+         width: auto;
+         margin: 0 72px;
+    }
+     .footer {
+         float: none;
+         width: auto;
+         padding: 10px 45px 20px;
+         font-size: 12px;
+         border-top: 1px solid #ddd;
+    }
+}
+ @media screen and (max-width:600px) {
+     .box-class {
+         width: auto;
+         float: none;
+         margin: auto;
+         height: 365px;
+         text-align: center;
+    }
+     .classes {
+         width: auto;
+         margin: 0 72px;
+    }
+     .footer {
+         float: none;
+         width: auto;
+         padding: 10px 45px 20px;
+         font-size: 12px;
+         border-top: 1px solid #ddd;
+    }
+    span.logo-mob {
+        margin: 0 33px;
+   }
+     .block3 {
+         margin: auto;
+         width: auto;
+         float: left;
+         text-align: center;
+         background-color: #f7f7f7;
+         padding-bottom: 32px;
+    }
+     .block4 {
+         padding: 32px 24px 32px 24px;
+         width: auto;
+    }
+}
